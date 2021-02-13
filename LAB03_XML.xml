@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<?xml-stylesheet type="text/xsl" type="text/xsl" href="LAB03_XSLT.xsl"?>
+<courses>
+    <course code="http_5201">
+        <name>Security and Quality Assurance</name>
+        <instructor>
+            <first>Sean</first>
+            <last>Doyle</last>
+        </instructor>
+        <time>
+            <day>Wednesday</day>
+            <start>14:25</start>
+            <finish>15:50</finish>
+        </time>
+    </course>
+    <course code="http_5202">
+        <name>Web Application Development 2</name>
+        <instructor>
+            <first>Nithya</first>
+            <last>T.</last>
+        </instructor>
+        <time>
+            <day>Wednesday</day>
+            <start>09:50</start>
+            <finish>11:35</finish>
+        </time>
+    </course>
+    <course code="http_5203">
+        <name>XML and Web Services</name>
+        <instructor>
+            <first>Joanna</first>
+            <last>Kommala</last>
+        </instructor>
+        <time>
+            <day>Thursday</day>
+            <start>11:40</start>
+            <finish>12:30</finish>
+        </time>
+    </course>
+    <course code="http_5204">
+        <name>Mobile Development</name>
+        <instructor>
+            <first>Christine</first>
+            <last>Bittle</last>
+        </instructor>
+        <time>
+            <day>Thursday</day>
+            <start>14:25</start>
+            <finish>16:10</finish>
+        </time>
+    </course>
+    <course code="http_5205">
+        <name>Professional Practice</name>
+        <instructor>
+            <first>First</first>
+            <last>Last</last>
+        </instructor>
+        <time>
+            <day>Monday</day>
+            <start>13:00</start>
+            <finish>14:00</finish>
+        </time>
+    </course>
+    <course code="http_5206">
+        <name>Web Information Architecture</name>
+        <instructor>
+            <first>Bernie</first>
+            <last>Monette</last>
+        </instructor>
+        <time>
+            <day>Tuesday</day>
+            <start>09:25</start>
+            <end>11:35</end>
+        </time>
+    </course>
+</courses>
