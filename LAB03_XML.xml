@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <?xml-stylesheet type="text/xsl" type="text/xsl" href="LAB03_XSLT.xsl"?>
 <courses>
-    <course code="http_5201">
+    <course order="3">
+        <code>HTTP-5201</code>
         <name>Security and Quality Assurance</name>
         <instructor>
             <first>Sean</first>
@@ -13,7 +14,8 @@
             <finish>15:50</finish>
         </time>
     </course>
-    <course code="http_5202">
+    <course order="3">
+        <code>HTTP-5202</code>
         <name>Web Application Development 2</name>
         <instructor>
             <first>Nithya</first>
@@ -25,7 +27,8 @@
             <finish>11:35</finish>
         </time>
     </course>
-    <course code="http_5203">
+    <course order="4">
+        <code>HTTP-5203</code>
         <name>XML and Web Services</name>
         <instructor>
             <first>Joanna</first>
@@ -37,7 +40,8 @@
             <finish>12:30</finish>
         </time>
     </course>
-    <course code="http_5204">
+    <course order="4">
+        <code>HTTP-5204</code>
         <name>Mobile Development</name>
         <instructor>
             <first>Christine</first>
@@ -49,7 +53,8 @@
             <finish>16:10</finish>
         </time>
     </course>
-    <course code="http_5205">
+    <course order="1">
+        <code>HTTP-5205</code>
         <name>Professional Practice</name>
         <instructor>
             <first>First</first>
@@ -61,7 +66,8 @@
             <finish>14:00</finish>
         </time>
     </course>
-    <course code="http_5206">
+    <course order="2">
+        <code>HTTP-5206</code>
         <name>Web Information Architecture</name>
         <instructor>
             <first>Bernie</first>

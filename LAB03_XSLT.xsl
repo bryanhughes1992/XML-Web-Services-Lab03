@@ -11,20 +11,40 @@
       <body>
         <h1>Lab 03 - XML / XPATH / XSLT</h1>
         <table>
-          <thead>
-            <tr>
-              <td>Monday</td>
-              <td>Tuesday</td>
-              <td>Wednesday</td>
-              <td>Thursday</td>
-              <td>Friday</td>
-            </tr>
-          </thead>
-          <tbody>
-
-          </tbody>
+          <xsl:for-each select="courses/course">
+            <xsl:sort select="@order" order="ascending"/>
+            <thead>
+              <tr>
+                <th>
+                  <strong><xsl:value-of select="time/day"/></strong>
+                </th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>
+                  <xsl:value-of select="code"/>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <xsl:value-of select="name"/>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <xsl:value-of select="instructor"/>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <xsl:value-of select="time"/>
+                </td>
+              </tr>
+            </tbody>
+          </xsl:for-each>
         </table>
       </body>
-      </html>
+    </html>
   </xsl:template>
 </xsl:stylesheet>
